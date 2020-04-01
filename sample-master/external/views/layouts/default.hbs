@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Team The First Ones Website</title>
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+</head>
+
+<style>
+body {
+  background-image: url('https://images.pexels.com/photos/355952/pexels-photo-355952.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<body>
+
+  <div>
+      <h1>Welcome to The First Ones application</h1>
+        {{{body}}}
+   </div>
+          
+<div>
+  <h2>Add an event</h2>
+    <form action="/event" method="post">
+       title: <input name="title" type="text" /> <br />
+       description: <input name="description" type="text" /> <br />
+       <br />
+        <input type="submit" name="submit" value="submit" />
+    </form>
+  </div>
+</body>
+</html>
